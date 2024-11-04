@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Rock, Paper, Scissors</title>
 </head>
-<body>
 
+<body>
+  <div class="container">
+    <aside>
+      <div class="game-info">
+        <h1>Rock,Paper or Scissors</h1>
+        <p>Welcome to "Rock, Paper, Scissors"! In this classic game, simply pick one of the 3 options by pressing a
+          button and see if you can outsmart your opponent. Ready to play? Good luck!</p>
+      </div>
+      <div class="game-controls">
+
+        <button id="reset-game">Reset Game</button>
+      </div>
+      <div class="">
+
+
+      </div>
+    </aside>
+    <main class="game-container">
+      <div class="game-view">
+
+        <h2 id="human-score">Your Score</h2>
+        <h2 id="round-number">Round number</h2>
+        <h2 id="computer-score">Computer's Score</h2>
+        <div id="human-round-choice">Your Choice</div>
+        <div id="round-result">Round Result</div>
+        <div id="computer-round-choice">Computer's Choice</div>
+      </div>
+      <div class="game-buttons">
+        <button id="rock" value="rock">Rock</button>
+        <button id="paper" value="paper">Paper</button>
+        <button id="scissors" value="scissors">Scissors</button>
+      </div>
+    </main>
+  </div>
   <script src="script.js"></script>
 </body>
+
 </html>
